@@ -1,0 +1,11 @@
+pydantic>=2.6,<3
+sqlalchemy>=2.0,<3
+python-dotenv>=1.0,<2
+pytest>=8.0,<9
+pandas>=2.2,<3
+Faker>=24.0,<38
+rapidfuzz>=3.6,<4
+streamlit>=1.32,<2
+litellm>=1.40,<2
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1

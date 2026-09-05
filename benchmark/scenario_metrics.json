@@ -1,0 +1,186 @@
+{
+  "baseline": [
+    {
+      "scenario": "exact_match",
+      "cases": 20,
+      "resolved": 3,
+      "correct_resolved": 3,
+      "exceptions": 17,
+      "resolution_rate": 0.15,
+      "resolved_accuracy": 1.0
+    },
+    {
+      "scenario": "fee_adjusted_match",
+      "cases": 15,
+      "resolved": 5,
+      "correct_resolved": 5,
+      "exceptions": 10,
+      "resolution_rate": 0.3333333333333333,
+      "resolved_accuracy": 1.0
+    },
+    {
+      "scenario": "delayed_settlement",
+      "cases": 10,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 10,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "fuzzy_reference",
+      "cases": 10,
+      "resolved": 1,
+      "correct_resolved": 1,
+      "exceptions": 9,
+      "resolution_rate": 0.1,
+      "resolved_accuracy": 1.0
+    },
+    {
+      "scenario": "duplicate_candidate",
+      "cases": 10,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 10,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "partial_payment",
+      "cases": 8,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 8,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "missing_counterparty",
+      "cases": 8,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 8,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "corrupt_record",
+      "cases": 5,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 5,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "no_valid_match",
+      "cases": 8,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 8,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "ambiguous_match",
+      "cases": 10,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 10,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    }
+  ],
+  "reconpilot": [
+    {
+      "scenario": "exact_match",
+      "cases": 20,
+      "resolved": 20,
+      "correct_resolved": 20,
+      "exceptions": 0,
+      "resolution_rate": 1.0,
+      "resolved_accuracy": 1.0
+    },
+    {
+      "scenario": "fee_adjusted_match",
+      "cases": 15,
+      "resolved": 15,
+      "correct_resolved": 15,
+      "exceptions": 0,
+      "resolution_rate": 1.0,
+      "resolved_accuracy": 1.0
+    },
+    {
+      "scenario": "delayed_settlement",
+      "cases": 10,
+      "resolved": 10,
+      "correct_resolved": 10,
+      "exceptions": 0,
+      "resolution_rate": 1.0,
+      "resolved_accuracy": 1.0
+    },
+    {
+      "scenario": "fuzzy_reference",
+      "cases": 10,
+      "resolved": 10,
+      "correct_resolved": 10,
+      "exceptions": 0,
+      "resolution_rate": 1.0,
+      "resolved_accuracy": 1.0
+    },
+    {
+      "scenario": "duplicate_candidate",
+      "cases": 10,
+      "resolved": 10,
+      "correct_resolved": 10,
+      "exceptions": 0,
+      "resolution_rate": 1.0,
+      "resolved_accuracy": 1.0
+    },
+    {
+      "scenario": "partial_payment",
+      "cases": 8,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 8,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "missing_counterparty",
+      "cases": 8,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 8,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "corrupt_record",
+      "cases": 5,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 5,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "no_valid_match",
+      "cases": 8,
+      "resolved": 0,
+      "correct_resolved": 0,
+      "exceptions": 8,
+      "resolution_rate": 0.0,
+      "resolved_accuracy": 0
+    },
+    {
+      "scenario": "ambiguous_match",
+      "cases": 10,
+      "resolved": 10,
+      "correct_resolved": 10,
+      "exceptions": 0,
+      "resolution_rate": 1.0,
+      "resolved_accuracy": 1.0
+    }
+  ]
+}

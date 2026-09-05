@@ -1,0 +1,8 @@
+.venv
+.git
+__pycache__
+.pytest_cache
+.env
+data/*.db
+benchmark/*.json
+.DS_Store

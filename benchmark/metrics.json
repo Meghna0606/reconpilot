@@ -1,0 +1,131 @@
+{
+  "seed": 46,
+  "baseline": {
+    "name": "deterministic_baseline",
+    "total_cases": 104,
+    "matched": 9,
+    "exceptions": 95,
+    "resolution_rate": 0.08653846153846154,
+    "resolved_accuracy": 1.0,
+    "overall_accuracy": 0.08653846153846154,
+    "false_auto_matches": 0,
+    "throughput_cases_per_second": 109181.65201643237,
+    "processing_time_seconds": 0.0009525410000605916,
+    "scenario_metrics": [
+      {
+        "scenario": "exact_match",
+        "cases": 20,
+        "resolved": 3,
+        "correct_resolved": 3,
+        "exceptions": 17,
+        "resolution_rate": 0.15,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "fee_adjusted_match",
+        "cases": 15,
+        "resolved": 5,
+        "correct_resolved": 5,
+        "exceptions": 10,
+        "resolution_rate": 0.3333333333333333,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "delayed_settlement",
+        "cases": 10,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 10,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "fuzzy_reference",
+        "cases": 10,
+        "resolved": 1,
+        "correct_resolved": 1,
+        "exceptions": 9,
+        "resolution_rate": 0.1,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "duplicate_candidate",
+        "cases": 10,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 10,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "partial_payment",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "missing_counterparty",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "corrupt_record",
+        "cases": 5,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 5,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "no_valid_match",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "ambiguous_match",
+        "cases": 10,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 10,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      }
+    ]
+  },
+  "reconpilot": {
+    "total_cases": 104,
+    "total_source_records": 408,
+    "deterministic_resolutions": 57,
+    "ai_assisted_resolutions": 18,
+    "suggested_matches": 0,
+    "unresolved_exceptions": 29,
+    "resolution_rate": 0.7212,
+    "resolved_accuracy": 1.0,
+    "overall_accuracy": 0.7212,
+    "false_auto_match_count": 0,
+    "throughput_cases_per_second": 385.8833,
+    "exception_breakdown": {
+      "NO_CANDIDATES": 16,
+      "MISSING_RECORD": 8,
+      "INVALID_RECORD": 5
+    }
+  },
+  "comparison": {
+    "resolution_rate_delta": 0.6346615384615384,
+    "resolved_accuracy_delta": 0.0,
+    "throughput_delta": -108795.76871643237,
+    "false_auto_matches_delta": 0
+  }
+}

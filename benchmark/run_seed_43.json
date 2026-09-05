@@ -1,0 +1,415 @@
+{
+  "seed": 43,
+  "baseline": {
+    "name": "deterministic_baseline",
+    "total_cases": 104,
+    "matched": 10,
+    "exceptions": 94,
+    "resolution_rate": 0.09615384615384616,
+    "resolved_accuracy": 1.0,
+    "overall_accuracy": 0.09615384615384616,
+    "false_auto_matches": 0,
+    "throughput_cases_per_second": 104491.94809471194,
+    "processing_time_seconds": 0.0009952919999705045,
+    "scenario_metrics": [
+      {
+        "scenario": "exact_match",
+        "cases": 20,
+        "resolved": 4,
+        "correct_resolved": 4,
+        "exceptions": 16,
+        "resolution_rate": 0.2,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "fee_adjusted_match",
+        "cases": 15,
+        "resolved": 6,
+        "correct_resolved": 6,
+        "exceptions": 9,
+        "resolution_rate": 0.4,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "delayed_settlement",
+        "cases": 10,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 10,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "fuzzy_reference",
+        "cases": 10,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 10,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "duplicate_candidate",
+        "cases": 10,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 10,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "partial_payment",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "missing_counterparty",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "corrupt_record",
+        "cases": 5,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 5,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "no_valid_match",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "ambiguous_match",
+        "cases": 10,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 10,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      }
+    ]
+  },
+  "reconpilot": {
+    "run_id": "4d36da8a-7102-4e58-b2f3-25bd5b5d64a8",
+    "ai_mode": "local",
+    "metrics": {
+      "total_cases": 104,
+      "total_source_records": 408,
+      "deterministic_resolutions": 56,
+      "ai_assisted_resolutions": 19,
+      "suggested_matches": 0,
+      "unresolved_exceptions": 29,
+      "resolution_rate": 0.7212,
+      "resolved_accuracy": 1.0,
+      "overall_accuracy": 0.7212,
+      "false_auto_match_count": 0,
+      "throughput_cases_per_second": 344.5916,
+      "exception_breakdown": {
+        "MISSING_RECORD": 8,
+        "NO_CANDIDATES": 16,
+        "INVALID_RECORD": 5
+      }
+    },
+    "false_auto_matches": 0,
+    "ai_contribution_rate": 0.18269230769230768,
+    "candidate_quality": {
+      "eligible_match_cases": 75,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0
+    },
+    "scenario_metrics": [
+      {
+        "scenario": "exact_match",
+        "cases": 20,
+        "resolved": 20,
+        "correct_resolved": 20,
+        "exceptions": 0,
+        "resolution_rate": 1.0,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "fee_adjusted_match",
+        "cases": 15,
+        "resolved": 15,
+        "correct_resolved": 15,
+        "exceptions": 0,
+        "resolution_rate": 1.0,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "delayed_settlement",
+        "cases": 10,
+        "resolved": 10,
+        "correct_resolved": 10,
+        "exceptions": 0,
+        "resolution_rate": 1.0,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "fuzzy_reference",
+        "cases": 10,
+        "resolved": 10,
+        "correct_resolved": 10,
+        "exceptions": 0,
+        "resolution_rate": 1.0,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "duplicate_candidate",
+        "cases": 10,
+        "resolved": 10,
+        "correct_resolved": 10,
+        "exceptions": 0,
+        "resolution_rate": 1.0,
+        "resolved_accuracy": 1.0
+      },
+      {
+        "scenario": "partial_payment",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "missing_counterparty",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "corrupt_record",
+        "cases": 5,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 5,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "no_valid_match",
+        "cases": 8,
+        "resolved": 0,
+        "correct_resolved": 0,
+        "exceptions": 8,
+        "resolution_rate": 0.0,
+        "resolved_accuracy": 0
+      },
+      {
+        "scenario": "ambiguous_match",
+        "cases": 10,
+        "resolved": 10,
+        "correct_resolved": 10,
+        "exceptions": 0,
+        "resolution_rate": 1.0,
+        "resolved_accuracy": 1.0
+      }
+    ],
+    "exception_breakdown": {
+      "MISSING_RECORD": 8,
+      "NO_CANDIDATES": 16,
+      "INVALID_RECORD": 5
+    },
+    "exceptions": [
+      {
+        "case_id": "CASE_0db979180f",
+        "reason_code": "MISSING_RECORD",
+        "detail": "missing_settlement_record",
+        "recommended_action": "Retrieve missing settlement"
+      },
+      {
+        "case_id": "CASE_243c785702",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_deterministic_payment_settlement_match",
+        "recommended_action": "Review payment/settlement linkage"
+      },
+      {
+        "case_id": "CASE_24e1f65885",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_unique_deterministic_payment_match",
+        "recommended_action": "Review payment-to-invoice linkage"
+      },
+      {
+        "case_id": "CASE_290a0fa314",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_unique_deterministic_payment_match",
+        "recommended_action": "Review payment-to-invoice linkage"
+      },
+      {
+        "case_id": "CASE_3113621005",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_unique_deterministic_payment_match",
+        "recommended_action": "Review payment-to-invoice linkage"
+      },
+      {
+        "case_id": "CASE_32d905f382",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_unique_deterministic_payment_match",
+        "recommended_action": "Review payment-to-invoice linkage"
+      },
+      {
+        "case_id": "CASE_3525b9f58e",
+        "reason_code": "MISSING_RECORD",
+        "detail": "missing_settlement_record",
+        "recommended_action": "Retrieve missing settlement"
+      },
+      {
+        "case_id": "CASE_3a4f5d367b",
+        "reason_code": "INVALID_RECORD",
+        "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+        "recommended_action": "Correct malformed source record"
+      },
+      {
+        "case_id": "CASE_3bfce72f06",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_deterministic_payment_settlement_match",
+        "recommended_action": "Review payment/settlement linkage"
+      },
+      {
+        "case_id": "CASE_65a8390503",
+        "reason_code": "MISSING_RECORD",
+        "detail": "missing_settlement_record",
+        "recommended_action": "Retrieve missing settlement"
+      },
+      {
+        "case_id": "CASE_6fd2d00f3c",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_deterministic_payment_settlement_match",
+        "recommended_action": "Review payment/settlement linkage"
+      },
+      {
+        "case_id": "CASE_7626ed2a38",
+        "reason_code": "MISSING_RECORD",
+        "detail": "missing_settlement_record",
+        "recommended_action": "Retrieve missing settlement"
+      },
+      {
+        "case_id": "CASE_7fb71d0ff5",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_unique_deterministic_payment_match",
+        "recommended_action": "Review payment-to-invoice linkage"
+      },
+      {
+        "case_id": "CASE_813a41f8b2",
+        "reason_code": "INVALID_RECORD",
+        "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+        "recommended_action": "Correct malformed source record"
+      },
+      {
+        "case_id": "CASE_8626e354ea",
+        "reason_code": "INVALID_RECORD",
+        "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+        "recommended_action": "Correct malformed source record"
+      },
+      {
+        "case_id": "CASE_8a8c5934f5",
+        "reason_code": "MISSING_RECORD",
+        "detail": "missing_settlement_record",
+        "recommended_action": "Retrieve missing settlement"
+      },
+      {
+        "case_id": "CASE_92a17b5899",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_deterministic_payment_settlement_match",
+        "recommended_action": "Review payment/settlement linkage"
+      },
+      {
+        "case_id": "CASE_a22b895651",
+        "reason_code": "MISSING_RECORD",
+        "detail": "missing_settlement_record",
+        "recommended_action": "Retrieve missing settlement"
+      },
+      {
+        "case_id": "CASE_a63af39761",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_deterministic_payment_settlement_match",
+        "recommended_action": "Review payment/settlement linkage"
+      },
+      {
+        "case_id": "CASE_a66fa422ff",
+        "reason_code": "MISSING_RECORD",
+        "detail": "missing_settlement_record",
+        "recommended_action": "Retrieve missing settlement"
+      },
+      {
+        "case_id": "CASE_b0e1af2102",
+        "reason_code": "MISSING_RECORD",
+        "detail": "missing_settlement_record",
+        "recommended_action": "Retrieve missing settlement"
+      },
+      {
+        "case_id": "CASE_b11adfbe35",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_deterministic_payment_settlement_match",
+        "recommended_action": "Review payment/settlement linkage"
+      },
+      {
+        "case_id": "CASE_b65828233f",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_deterministic_payment_settlement_match",
+        "recommended_action": "Review payment/settlement linkage"
+      },
+      {
+        "case_id": "CASE_b68cf2c152",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_deterministic_payment_settlement_match",
+        "recommended_action": "Review payment/settlement linkage"
+      },
+      {
+        "case_id": "CASE_c0a9927225",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_unique_deterministic_payment_match",
+        "recommended_action": "Review payment-to-invoice linkage"
+      },
+      {
+        "case_id": "CASE_cc51243282",
+        "reason_code": "INVALID_RECORD",
+        "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+        "recommended_action": "Correct malformed source record"
+      },
+      {
+        "case_id": "CASE_d19f18ccb7",
+        "reason_code": "INVALID_RECORD",
+        "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+        "recommended_action": "Correct malformed source record"
+      },
+      {
+        "case_id": "CASE_fe69178264",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_unique_deterministic_payment_match",
+        "recommended_action": "Review payment-to-invoice linkage"
+      },
+      {
+        "case_id": "CASE_fe8127af1a",
+        "reason_code": "NO_CANDIDATES",
+        "detail": "no_unique_deterministic_payment_match",
+        "recommended_action": "Review payment-to-invoice linkage"
+      }
+    ]
+  },
+  "comparison": {
+    "resolution_rate_delta": 0.6250461538461538,
+    "resolved_accuracy_delta": 0.0,
+    "throughput_delta": -104147.35649471194,
+    "false_auto_matches_delta": 0
+  }
+}

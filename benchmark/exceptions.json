@@ -1,0 +1,176 @@
+[
+  {
+    "case_id": "CASE_0a09555f21",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_deterministic_payment_settlement_match",
+    "recommended_action": "Review payment/settlement linkage"
+  },
+  {
+    "case_id": "CASE_147675d795",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_deterministic_payment_settlement_match",
+    "recommended_action": "Review payment/settlement linkage"
+  },
+  {
+    "case_id": "CASE_17572dd282",
+    "reason_code": "MISSING_RECORD",
+    "detail": "missing_settlement_record",
+    "recommended_action": "Retrieve missing settlement"
+  },
+  {
+    "case_id": "CASE_275a92121c",
+    "reason_code": "INVALID_RECORD",
+    "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+    "recommended_action": "Correct malformed source record"
+  },
+  {
+    "case_id": "CASE_284cc6b1ef",
+    "reason_code": "MISSING_RECORD",
+    "detail": "missing_settlement_record",
+    "recommended_action": "Retrieve missing settlement"
+  },
+  {
+    "case_id": "CASE_330fca6cad",
+    "reason_code": "INVALID_RECORD",
+    "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+    "recommended_action": "Correct malformed source record"
+  },
+  {
+    "case_id": "CASE_34c5c13492",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_unique_deterministic_payment_match",
+    "recommended_action": "Review payment-to-invoice linkage"
+  },
+  {
+    "case_id": "CASE_38c6beb8f8",
+    "reason_code": "MISSING_RECORD",
+    "detail": "missing_settlement_record",
+    "recommended_action": "Retrieve missing settlement"
+  },
+  {
+    "case_id": "CASE_39ab31cf2a",
+    "reason_code": "INVALID_RECORD",
+    "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+    "recommended_action": "Correct malformed source record"
+  },
+  {
+    "case_id": "CASE_3ee732d28f",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_unique_deterministic_payment_match",
+    "recommended_action": "Review payment-to-invoice linkage"
+  },
+  {
+    "case_id": "CASE_4bedb6d27f",
+    "reason_code": "MISSING_RECORD",
+    "detail": "missing_settlement_record",
+    "recommended_action": "Retrieve missing settlement"
+  },
+  {
+    "case_id": "CASE_58447822ab",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_deterministic_payment_settlement_match",
+    "recommended_action": "Review payment/settlement linkage"
+  },
+  {
+    "case_id": "CASE_5ddb1b8e46",
+    "reason_code": "MISSING_RECORD",
+    "detail": "missing_settlement_record",
+    "recommended_action": "Retrieve missing settlement"
+  },
+  {
+    "case_id": "CASE_67f1cf28c7",
+    "reason_code": "MISSING_RECORD",
+    "detail": "missing_settlement_record",
+    "recommended_action": "Retrieve missing settlement"
+  },
+  {
+    "case_id": "CASE_77e85265b0",
+    "reason_code": "MISSING_RECORD",
+    "detail": "missing_settlement_record",
+    "recommended_action": "Retrieve missing settlement"
+  },
+  {
+    "case_id": "CASE_83a999dda6",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_deterministic_payment_settlement_match",
+    "recommended_action": "Review payment/settlement linkage"
+  },
+  {
+    "case_id": "CASE_8b4ca97bed",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_unique_deterministic_payment_match",
+    "recommended_action": "Review payment-to-invoice linkage"
+  },
+  {
+    "case_id": "CASE_8baeb989be",
+    "reason_code": "INVALID_RECORD",
+    "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+    "recommended_action": "Correct malformed source record"
+  },
+  {
+    "case_id": "CASE_925196c441",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_unique_deterministic_payment_match",
+    "recommended_action": "Review payment-to-invoice linkage"
+  },
+  {
+    "case_id": "CASE_962e0acd09",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_deterministic_payment_settlement_match",
+    "recommended_action": "Review payment/settlement linkage"
+  },
+  {
+    "case_id": "CASE_9b701ffe06",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_deterministic_payment_settlement_match",
+    "recommended_action": "Review payment/settlement linkage"
+  },
+  {
+    "case_id": "CASE_c468ba4677",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_unique_deterministic_payment_match",
+    "recommended_action": "Review payment-to-invoice linkage"
+  },
+  {
+    "case_id": "CASE_ebbf076845",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_deterministic_payment_settlement_match",
+    "recommended_action": "Review payment/settlement linkage"
+  },
+  {
+    "case_id": "CASE_ec0b12d5f4",
+    "reason_code": "INVALID_RECORD",
+    "detail": "1 validation error for Payment\namount\n  Input should be a valid decimal [type=decimal_parsing, input_value='NOT_A_NUMBER', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/decimal_parsing",
+    "recommended_action": "Correct malformed source record"
+  },
+  {
+    "case_id": "CASE_ede8d016ca",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_unique_deterministic_payment_match",
+    "recommended_action": "Review payment-to-invoice linkage"
+  },
+  {
+    "case_id": "CASE_f02a5375b6",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_deterministic_payment_settlement_match",
+    "recommended_action": "Review payment/settlement linkage"
+  },
+  {
+    "case_id": "CASE_f40732f7d4",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_unique_deterministic_payment_match",
+    "recommended_action": "Review payment-to-invoice linkage"
+  },
+  {
+    "case_id": "CASE_f5208ca0ee",
+    "reason_code": "MISSING_RECORD",
+    "detail": "missing_settlement_record",
+    "recommended_action": "Retrieve missing settlement"
+  },
+  {
+    "case_id": "CASE_f9b0d02cde",
+    "reason_code": "NO_CANDIDATES",
+    "detail": "no_unique_deterministic_payment_match",
+    "recommended_action": "Review payment-to-invoice linkage"
+  }
+]
