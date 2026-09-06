@@ -2,6 +2,14 @@
 
 ReconPilot is a submission-ready prototype for reconciling **invoices → payments → settlements → bank transactions**. It combines deterministic financial controls with constrained AI investigation while remaining **fail-closed**: an LLM can recommend a candidate, but deterministic validation is required before an automatic match is persisted.
 
+## 🚀 Live Demo
+
+**[Try ReconPilot](https://reconpilot-kf.streamlit.app/)**
+
+Interactive Streamlit dashboard for running reconciliation batches,
+reviewing exceptions, investigating AI-assisted decisions, and inspecting
+the reconciliation chain and audit trail.
+
 ## Core architecture
 
 ```text
@@ -49,7 +57,7 @@ The local evaluator is **never labeled as an LLM** in the benchmark or UI.
 
 ## Benchmark
 
-The included synthetic benchmark has 104 cases across 10 controlled scenarios:
+The included synthetic benchmark contains 104 cases across 10 controlled scenarios:
 
 - exact match — 20
 - fee-adjusted match — 15
@@ -66,7 +74,6 @@ Run the reproducible benchmark:
 
 ```bash
 python -m reconpilot benchmark --seed 42 --mode local
-```
 
 Run five seeds:
 
